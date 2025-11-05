@@ -1,3 +1,38 @@
 h1{
-    font-size: 30px;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    margin-right: 150px;
+    color:#708238;
 }
+
+body{
+    background-image: url(https://i.pinimg.com/736x/65/4b/72/654b720f4ff354ac7adf69753cc23632.jpg);
+    background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center; 
+  height: 100vh;
+  margin: 0;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.lien-souligne {
+  text-decoration: underline;
+  color: #2E8B57; 
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  align-items: center;
+  margin-right: 80px;
+}
+.lien-souligne:hover {
+  color: #A67B5B; /* change de couleur quand on passe la souris */
+}
+
+
+
