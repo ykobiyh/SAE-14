@@ -2,7 +2,7 @@ h1{
     font-size: 40px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
-    margin-right: 150px;
+    margin-right: 130px;
     color:#708238;
 }
 
@@ -22,16 +22,17 @@ ul{
 }
 
 .lien-souligne {
-  text-decoration: underline;
+  text-decoration: none;
   color: #2E8B57; 
   display: flex;
   justify-content: space-around;
-  font-size: 25px;
+  font-size: 20px;
   align-items: center;
   margin-right: 80px;
 }
 .lien-souligne:hover {
-  color: #A67B5B; /* change de couleur quand on passe la souris */
+  color:blue;
+  text-decoration: underline;
 }
 
 
