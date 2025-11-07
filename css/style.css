@@ -39,8 +39,8 @@ img{
   display: flex;
   height: 330px;
   width: 330px;
-  margin-top: 170px;
-  margin-left: 950px;
+  margin-top: 145px;
+  margin-left: 500px;
   transition: transform 0.3s ease;
 }
 
@@ -48,3 +48,14 @@ img:hover {
   transform: scale(0.9);
 }
 
+div{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+ }
+
+p{
+ margin-left: 20px;
+  font-size: 23px;
+  font-family: 'Poppins', sans-serif;
+}
