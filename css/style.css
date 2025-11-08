@@ -6,7 +6,49 @@ h1{
     color:#708238;
   }
 
-body{
+.loader {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background-image: url(https://i.pinimg.com/736x/65/4b/72/654b720f4ff354ac7adf69753cc23632.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  animation: hideLoader 3s forwards;
+}
+
+.loading-text {
+  font-size: 80px;
+  color: whitesmoke;
+  display: flex;
+  gap: 5px;
+}
+
+.dot {
+  font-size: 60px;
+  color: whitesmoke;
+  animation: bounce 1s infinite;
+}
+
+.dot1 { animation-delay: 0s; }
+.dot2 { animation-delay: 0.2s; }
+.dot3 { animation-delay: 0.4s; }
+
+@keyframes bounce {
+  0%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-10px); }
+}
+
+@keyframes hideLoader {
+  0% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; visibility: hidden; }
+}
+
+  body{
     background-image: url(https://i.pinimg.com/736x/65/4b/72/654b720f4ff354ac7adf69753cc23632.jpg);
     background-size: cover; 
   background-repeat: no-repeat;
@@ -48,7 +90,7 @@ img:hover {
   transform: scale(0.9);
 }
 
-div{
+li{
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-start;
