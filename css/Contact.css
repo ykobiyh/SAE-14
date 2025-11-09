@@ -7,8 +7,8 @@ h1{
   }
 
 body{
-    background-image: url(https://i.pinimg.com/736x/65/4b/72/654b720f4ff354ac7adf69753cc23632.jpg);
-    background-size: cover; 
+  background-image: url(https://i.pinimg.com/736x/65/4b/72/654b720f4ff354ac7adf69753cc23632.jpg);
+  background-size: cover; 
   background-repeat: no-repeat;
   background-position: center; 
   height: 100vh;
@@ -33,4 +33,45 @@ ul{
 .lien-souligne:hover {
   color:blue;
   text-decoration: underline;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    margin: 20px;
+    color:darkkhaki;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+button{margin: 30px;
+    height: 100px;
+    width: 220px;
+    font-size: 30px;
+    border-radius: 40px;
+    background-color:darkgoldenrod;
+}
+
+a{
+    text-decoration: none;
+    size: 60px;
+    color: white;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:darkgoldenrod
 }
