@@ -57,3 +57,57 @@ div{
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
+
+
+@media (max-width: 1024px) {
+  ul {
+    flex-direction: column;
+    gap: 10px;
+    width: 650px;
+    margin-left: 170px;
+  }
+
+  body {
+    background-position: center;
+    background-size: cover;
+  }
+
+  h1{
+    font-size: 36px;
+    margin-left: 110px;
+  }
+
+  p{
+    font-size: 23px;
+  }
+
+  h2{
+    font-size: 30px;
+  }}
+
+@media (max-width: 768px) {
+  ul {
+    flex-direction: column;
+    gap: 10px;
+    width: 650px;
+    margin-left: 80px;
+  }
+
+  body {
+    background-position: center;
+    background-size: cover;
+  }
+
+  h1{
+    font-size: 30px;
+    margin-left: 140px;
+  }
+
+  p{
+    font-size: 16px;
+  }
+
+  h2{
+    font-size: 22px;
+  }
+}
