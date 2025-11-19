@@ -75,3 +75,16 @@ h2{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color:darkgoldenrod
 }
+
+@media (max-width: 768px) {
+  ul {
+    flex-direction: column;
+    gap: 10px;
+    width: 650px;
+    margin-left: 80px;
+  }
+
+  h1{
+    margin-left: 80px;
+  }
+}

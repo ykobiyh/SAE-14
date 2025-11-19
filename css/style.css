@@ -101,7 +101,7 @@ li{
 
 p{
  margin-left: 20px;
-  font-size: 43px;
+  font-size: 25px;
   font-family: 'Poppins', sans-serif;
   margin-top: 110px;
 }
@@ -207,7 +207,7 @@ section{
   }
 
   img {
-    width: 85%;
+    width: 75%;
     height: auto;
   }
 
