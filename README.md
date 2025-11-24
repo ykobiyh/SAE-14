@@ -58,3 +58,6 @@ Ce projet a été réalisé dans un cadre **pédagogique** afin de mettre en pra
 ## 🔖 Licence
 Projet à usage **scolaire uniquement**.  
 Toute réutilisation ou diffusion du code doit être mentionnée avec le nom de l’auteur.
+
+## Lien de validation W3C
+https://jigsaw.w3.org/css-validator/validator?lang=fr&profile=css3svg&uri=https%3A%2F%2Fykobiyh.github.io%2FSAE-14%2F&usermedium=all&vextwarning=&warning=1
